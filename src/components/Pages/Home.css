@@ -1,0 +1,47 @@
+.media {
+    margin-top: 0;
+    padding: 1.8em 0;
+    border-top: 1px solid #eee;
+  }
+  
+  .media-image {
+    height: 35vh;
+    background-color: #eee;
+  }
+  
+  .media-body {
+    margin-top: 0;
+  }
+  
+  .media-body h3 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+  
+  .media-body p {
+    margin-top: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  @media (min-width: 480px) {
+    .media-image {
+      float: left;
+      width: 150px;
+      height: 150px;
+      margin-right: 1em;
+    }
+    
+    .media-body {
+      overflow: auto;
+    }
+    
+    .media-body h3 {
+      margin-top: 0;
+    }
+    
+    .media-body p {
+      font-size: 1rem;
+    }
+  }
