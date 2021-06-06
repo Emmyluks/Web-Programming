@@ -5,10 +5,11 @@ import React from 'react'
     return (
         <main className='container'>
             <section>
+                    
 
+                <h1>INTERNET  WEB AND WEBPROGRAMMING</h1>
+                <h2>Welcome to CSC506</h2>
 
-                <h1>HOME</h1>
-                <h2>Welcome to CSC 506 Web and Internet Programming</h2>
             </section>
         
         </main>
